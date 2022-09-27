@@ -1,0 +1,40 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin-top: 104px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.order-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #1C2B35;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
+
+.cart-container {
+    width: 264px;
+    height: 944px;
+    background: rgba(255, 153, 0, 0.3);
+}
+
+@media screen and (max-width: 1100px) {
+    .product-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+    }
+}
