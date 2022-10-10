@@ -1,0 +1,16 @@
+.review-image img {
+    width: 91px;
+    height: 91px;
+}
+
+.review-item-container {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.review-product-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

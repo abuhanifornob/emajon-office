@@ -23,7 +23,7 @@ const Product = (props) => {
                <FontAwesomeIcon icon={faShoppingCart} className="ficon" />
           
            </button>
-           
+             
         </div>
     );
 };
